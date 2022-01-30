@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find Music</title>
+    <link rel="icon" href="img/icon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap');
+    </style>
+</head>
+
+<body></body>
+<header class="sticky">
+    <div id="header">
+        <div class="topnav">
+            <div class="flex-grow">
+                <img src="img/logo.png" class="logo">
+            </div>
+            <a href="#home">Home</a>
+            <a href="#Products">Products</a>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- HEADER BANNER -->
+<div id="home">
+    <div id="header2">
+        <picture>
+            <img src="img/banner-home.png" alt="main banner" style="width:100%;">
+        </picture>
+        <span class="text-banner">FIND MUSIC<br>INSIDE YOU</span>
+        <span class="text-banner2">Find your passion in music with us,<br>and follow your dream</span>
+        <a href="#Products"> <button class="position-button">Start Now</button> </a>
+    </div>
+</div>
+
+<!-- MENU PRODUCT -->
+<div id="Products" class="containter-menu">
+    <div style="margin: auto;">
+        <h1 style="text-align: center; font-family: 'Roboto Condensed', sans-serif; margin: -5px;">PRODUCTS</h1>
+        <p style="text-align: center; font-size: 24px;" class="content-text">Click the character to hear the sound</p>
+    </div>
+</div>
+<div class="flex-row">
+    <div class="flex-column">
+        <div class="shop-now" onclick="guitar()">
+            <img src="img/guitar.png" alt="guitar" class="shop2">
+            <img src="img/guitar.gif" alt="guitar" class="shop">
+        </div>
+        <div class="shop-now" onclick="piano()">
+            <img src="img/piano.png" alt="piano" class="shop2">
+            <img src="img/piano.gif" alt="piano" class="shop">
+        </div>
+    </div>
+    <div class="flex-column">
+        <div class="shop-now" onclick="electricGuitar()">
+            <img src="img/electric-guitar.png" alt="elecrtric guitar" class="shop2">
+            <img src="img/elecrtric-guitar.gif" alt="elecrtric guitar" class="shop">
+        </div>
+        <div class="shop-now" onclick="drum()">
+            <img src="img/drum.png" alt="drum" class="shop2">
+            <img src="img/drum.gif" alt="drum" class="shop">
+        </div>
+    </div>
+    <div class="flex-column">
+        <div class="shop-now" onclick="violin()">
+            <img src="img/violin.png" alt="violin" class="shop2">
+            <img src="img/violin.gif" alt="violin" class="shop">
+        </div>
+        <div class="shop-now" onclick="bass()">
+            <img src="img/bass.png" alt="bass" class="shop2">
+            <img src="img/bass.gif" alt="bass" class="shop">
+        </div>
+    </div>
+    <div class="flex-column">
+        <div class="shop-now" onclick="ukulele()">
+            <img src="img/ukulele.png" alt="ukulele" class="shop2">
+            <img src="img/ukulele.gif" alt="ukulele" class="shop">
+        </div>
+        <div class="shop-now" onclick="trumpet()">
+            <img src="img/trumpet.png" alt="trumpet" class="shop2">
+            <img src="img/trumpet.gif" alt="trumpet" class="shop">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <span>Ignatius Andri Pratama Putra</span>
+</footer>
+
+<audio id='guitar' src="sound/guitar.mp3"></audio>
+<audio id='piano' src="sound/piano.mp3"></audio>
+<audio id='electricGuitar' src="sound/electric-guitar.mp3"></audio>
+<audio id='bass' src="sound/bass.mp3"></audio>
+<audio id='drum' src="sound/drum.mp3"></audio>
+<audio id='violin' src="sound/violin.mp3"></audio>
+<audio id='trumpet' src="sound/trumpet.mp3"></audio>
+<audio id='ukulele' src="sound/ukulele.mp3"></audio>
+<script src="script.js"></script>
+</body>
+
+
+</html>
